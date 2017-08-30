@@ -1,0 +1,606 @@
+/*
+	colour.css
+	
+	Default Website Stylesheet.
+	
+	Contains colours for the default template website.
+	
+	© Alexander Wright, 2015
+	
+	Pink for Black bk:	DD33CC
+	Blue for Black bk:	33CCDD
+	
+ */
+ 
+ 
+
+.newsHr {
+	color:						#704e92;
+	background-color:			#704e92;
+	padding: 					0px;
+	margin: 					5px 0px;
+}
+
+
+
+.originalStatic{
+	background-color:			#9973be;	
+	background-image: 			-moz-linear-gradient(top, #9973be, #704e92);
+	background-image: 			-ms-linear-gradient(top, #9973be, #704e92);
+	background-image: 			-webkit-linear-gradient(top, #9973be, #704e92);
+	background-image: 			-o-linear-gradient(top, #9973be, #704e92);
+	background-image: 			linear-gradient(top, #9973be, #704e92);	
+}
+
+.original{
+	background-color:			#9973be;	
+	background-image: 			-moz-linear-gradient(top, #9973be, #704e92);
+	background-image: 			-ms-linear-gradient(top, #9973be, #704e92);
+	background-image: 			-webkit-linear-gradient(top, #9973be, #704e92);
+	background-image: 			-o-linear-gradient(top, #9973be, #704e92);
+	background-image: 			linear-gradient(top, #9973be, #704e92);	
+}
+
+.original:hover{
+	background-color:			#b998da;	
+	background-image: 			-moz-linear-gradient(top, #b998da, #825ea6);
+	background-image: 			-ms-linear-gradient(top, #b998da, #825ea6);
+	background-image: 			-webkit-linear-gradient(top, #b998da, #825ea6);
+	background-image: 			-o-linear-gradient(top, #b998da, #825ea6);
+	background-image: 			linear-gradient(top, #b998da, #825ea6);
+}
+
+.originalText {
+	color: 						#220066;
+}
+
+.originalLink {
+	color: 						#704e92;
+}
+
+.originalLink:hover {
+	color: 						#9973be;
+	text-decoration:			underline;
+}
+
+.originalHr {
+	color:						#704e92;
+	background-color:			#704e92;
+}
+
+.originalTopBorder {
+	border-top:					10px solid #704e92;
+}
+
+.originalBottomBorder {
+	border-bottom:					10px solid #704e92;
+}
+
+
+/*
+
+	Main Site Colour
+
+*/
+
+.originalLinkLighter {
+	color: 						#b2d6dc;
+}
+
+.originalLinkLighter:hover {
+	color: 						#d3e9ec;
+	text-decoration:			underline;
+}
+
+
+/*
+
+	Disabled (grey)
+
+*/
+
+.disabled{
+	background-color:			#888888;	
+	background-image: 			-moz-linear-gradient(top, #888888, #555555);
+	background-image: 			-ms-linear-gradient(top, #888888, #555555);
+	background-image: 			-webkit-linear-gradient(top, #888888, #555555);
+	background-image: 			-o-linear-gradient(top, #888888, #555555);
+	background-image: 			linear-gradient(top, #888888, #555555);
+}
+
+
+/*
+
+	Black
+
+*/
+
+.blackPlain {
+	background-color:			#333333;	
+}
+
+.black{
+	background-color:			#333333;	
+	background-image: 			-moz-linear-gradient(top, #666666, #333333);
+	background-image: 			-ms-linear-gradient(top, #666666, #333333);
+	background-image: 			-webkit-linear-gradient(top, #666666, #333333);
+	background-image: 			-o-linear-gradient(top, #666666, #333333);
+	background-image: 			linear-gradient(top, #666666, #333333);	
+}
+
+.blackStatic{
+	background-color:			#333333;	
+}
+
+.black:hover{
+	background-color:			#666666;	
+	background-image: 			-moz-linear-gradient(top, #999999, #666666);
+	background-image: 			-ms-linear-gradient(top, #999999, #666666);
+	background-image: 			-webkit-linear-gradient(top, #999999, #666666);
+	background-image: 			-o-linear-gradient(top, #999999, #666666);
+	background-image: 			linear-gradient(top, #999999, #666666);
+}
+
+.blackLink {
+	color: 						#333333;
+}
+
+.blackLink:hover {
+	color: 						#666666;
+}
+
+.blackHr {
+	color:						#333333;
+	background-color:			#333333;
+}
+
+.blackText {
+	color: 						#000000;
+}
+
+.blackTopBorder {
+	border-top:					10px solid #333333;
+}
+
+.blackBottomBorder {
+	border-bottom:					10px solid #333333;
+}
+
+
+/*
+
+	Red
+
+*/
+
+.red{
+	background-color:			#be7373;	
+	background-image: 			-moz-linear-gradient(top, #be7373, #924e4e);
+	background-image: 			-ms-linear-gradient(top, #be7373, #924e4e);
+	background-image: 			-webkit-linear-gradient(top, #be7373, #924e4e);
+	background-image: 			-o-linear-gradient(top, #be7373, #924e4e);
+	background-image: 			linear-gradient(top, #be7373, #924e4e);	
+}
+
+.redStatic{
+	background-color:			#be7373;	
+	background-image: 			-moz-linear-gradient(top, #be7373, #924e4e);
+	background-image: 			-ms-linear-gradient(top, #be7373, #924e4e);
+	background-image: 			-webkit-linear-gradient(top, #be7373, #924e4e);
+	background-image: 			-o-linear-gradient(top, #be7373, #924e4e);
+	background-image: 			linear-gradient(top, #be7373, #924e4e);	
+}
+
+.red:hover{
+	background-color:			#da9898;	
+	background-image: 			-moz-linear-gradient(top, #da9898, #a65e5e);
+	background-image: 			-ms-linear-gradient(top, #da9898, #a65e5e);
+	background-image: 			-webkit-linear-gradient(top, #da9898, #a65e5e);
+	background-image: 			-o-linear-gradient(top, #da9898, #a65e5e);
+	background-image: 			linear-gradient(top, #da9898, #a65e5e);
+}
+
+.redLink {
+	color: 						#924e4e;
+}
+
+.redLink:hover {
+	color: 						#be7373;
+}
+
+.redHr {
+	color:						#924e4e;
+	background-color:			#924e4e;
+}
+
+.redTopBorder {
+	border-top:					10px solid #924e4e;
+}
+
+.redBottomBorder {
+	border-bottom:					10px solid #924e4e;
+}
+
+
+/*
+	=====================================================
+
+	Virtual Pathology Core Colours Desaturated
+	
+	=====================================================
+*/
+
+
+/*
+
+	Pink
+
+*/
+
+.pinkStatic{
+	background-color:			#9900AA;	
+}
+
+.pink{
+	background-color:			#bf75b9;	
+	background-image: 			-moz-linear-gradient(top, #bf75b9, #994e93);
+	background-image: 			-ms-linear-gradient(top, #bf75b9, #994e93);
+	background-image: 			-webkit-linear-gradient(top, #bf75b9, #994e93);
+	background-image: 			-o-linear-gradient(top, #bf75b9, #994e93);
+	background-image: 			linear-gradient(top, #bf75b9, #994e93);	
+}
+
+.pink:hover{
+	background-color:			#e3a1dd;	
+	background-image: 			-moz-linear-gradient(top, #e3a1dd, #bf75b9);
+	background-image: 			-ms-linear-gradient(top, #e3a1dd, #bf75b9);
+	background-image: 			-webkit-linear-gradient(top, #e3a1dd, #bf75b9);
+	background-image: 			-o-linear-gradient(top, #e3a1dd, #bf75b9);
+	background-image: 			linear-gradient(top, #e3a1dd, #bf75b9);
+}
+
+.pinkLink {
+	color: 						#cc33dd;
+}
+
+.pinkLink:hover {
+	color: 						#bf75b9;
+}
+
+.pinkHr {
+	color:						#994e93;
+	background-color:			#994e93;
+}
+
+.pinkTopBorder {
+	border-top:					10px solid #994e93;
+}
+
+.pinkBottomBorder {
+	border-bottom:					10px solid #994e93;
+}
+
+
+/*
+
+	Purple
+
+*/
+
+.purpleStatic{
+	background-color:			#8811DD;	
+}
+
+.purple{
+	background-color:			#9973be;	
+	background-image: 			-moz-linear-gradient(top, #9973be, #704e92);
+	background-image: 			-ms-linear-gradient(top, #9973be, #704e92);
+	background-image: 			-webkit-linear-gradient(top, #9973be, #704e92);
+	background-image: 			-o-linear-gradient(top, #9973be, #704e92);
+	background-image: 			linear-gradient(top, #9973be, #704e92);	
+}
+
+.purple:hover{
+	background-color:			#b998da;	
+	background-image: 			-moz-linear-gradient(top, #b998da, #825ea6);
+	background-image: 			-ms-linear-gradient(top, #b998da, #825ea6);
+	background-image: 			-webkit-linear-gradient(top, #b998da, #825ea6);
+	background-image: 			-o-linear-gradient(top, #b998da, #825ea6);
+	background-image: 			linear-gradient(top, #b998da, #825ea6);
+}
+
+.purpleLink {
+	color: 						#AA44FF;
+}
+
+.purpleLink:hover {
+	color: 						#9973be;
+}
+
+.purpleHr {
+	color:						#704e92;
+	background-color:			#704e92;
+}
+
+.purpleTopBorder {
+	border-top:					10px solid #704e92;
+}
+
+.purpleBottomBorder {
+	border-bottom:					10px solid #704e92;
+}
+
+/*
+
+	Blue
+
+*/
+
+
+.blueStatic{
+	background-color:			#2233DD;	
+}
+
+.blue{
+	background-color:			#4455ff;	
+	background-image: 			-moz-linear-gradient(top, #4455ff, #2233DD);
+	background-image: 			-ms-linear-gradient(top, #4455ff, #2233DD);
+	background-image: 			-webkit-linear-gradient(top, #4455ff, #2233DD);
+	background-image: 			-o-linear-gradient(top, #4455ff, #2233DD);
+	background-image: 			linear-gradient(top, #4455ff, #2233DD);	
+}
+
+.blue:hover{
+	background-color:			#88BBFF;	
+	background-image: 			-moz-linear-gradient(top, #88BBFF, #4455ff);
+	background-image: 			-ms-linear-gradient(top, #88BBFF, #4455ff);
+	background-image: 			-webkit-linear-gradient(top, #88BBFF, #4455ff);
+	background-image: 			-o-linear-gradient(top, #88BBFF, #4455ff);
+	background-image: 			linear-gradient(top, #88BBFF, #4455ff);
+}
+
+.blueLink {
+	color: 						#4455ff;
+}
+
+.blueLink:hover {
+	color: 						#88BBFF;
+}
+
+.blueHr {
+	color:						#4455ff;
+	background-color:			#4455ff;
+}
+
+.blueTopBorder {
+	border-top:					10px solid #4455ff;
+}
+
+.blueBottomBorder {
+	border-bottom:					10px solid #4455ff;
+}
+
+
+/*
+
+	Cyan
+
+*/
+
+
+.cyanStatic{
+	background-color:			#008899;	
+}
+
+.cyan{
+	background-color:			#33ccdd;	
+	background-image: 			-moz-linear-gradient(top, #33ccdd, #0099AA);
+	background-image: 			-ms-linear-gradient(top, #33ccdd, #0099AA);
+	background-image: 			-webkit-linear-gradient(top, #33ccdd, #0099AA);
+	background-image: 			-o-linear-gradient(top, #33ccdd, #0099AA);
+	background-image: 			linear-gradient(top, #33ccdd, #0099AA);	
+}
+
+.cyan:hover{
+	background-color:			#98add9;	
+	background-image: 			-moz-linear-gradient(top, #98add9, #33ccdd);
+	background-image: 			-ms-linear-gradient(top, #98add9, #33ccdd);
+	background-image: 			-webkit-linear-gradient(top, #98add9, #33ccdd);
+	background-image: 			-o-linear-gradient(top, #98add9, #33ccdd);
+	background-image: 			linear-gradient(top, #98add9, #33ccdd);
+}
+
+.cyanLink {
+	color: 						#33ccdd;
+}
+
+.cyanLink:hover {
+	color: 						#44DDEE;
+}
+
+.cyanHr {
+	color:						#33ccdd;
+	background-color:			#33ccdd;
+}
+
+.cyanTopBorder {
+	border-top:					10px solid #33ccdd;
+}
+
+.cyanBottomBorder {
+	border-bottom:					10px solid #2f5a73;
+}
+
+
+
+/*
+
+	White
+
+*/
+
+.whiteText {
+	color: 						#FFFFFF;
+}
+
+.whiteLink {
+	color: 						#FFFFFF;
+}
+
+.whiteLink:hover {
+	color: 						#FFFFFF;
+	text-decoration:			underline;
+}
+
+.greyLink {
+	color: 						#AAAAAA;
+}
+
+.greyLink:hover {
+	color: 						#AAAAAA;
+	text-decoration:			none;
+}
+
+.whiteTopBorder {
+	border-top:					10px solid #FFFFFF;
+}
+
+.whiteBottomBorder {
+	border-bottom:					10px solid #FFFFFF;
+}
+
+
+/*
+
+	Top border of content
+
+*/
+
+.blackTop {
+	border-top:		10px solid #555555;
+}
+
+.pinkTop {
+	border-top:		10px solid #cc33dd;
+}
+
+.purpleTop {
+	border-top:		10px solid #AA44FF;
+}
+
+.blueTop {
+	border-top:		10px solid #4455ff;
+}
+
+.cyanTop {
+	border-top:		10px solid #33ccdd;
+}
+
+/*
+
+	Top border of content Thin
+
+*/
+
+.pinkTopThin {
+	border-top:		3px solid #cc33dd;
+}
+
+.purpleTopThin {
+	border-top:		3px solid #AA44FF;
+}
+
+.blueTopThin {
+	border-top:		3px solid #4455ff;
+}
+
+.cyanTopThin {
+	border-top:		3px solid #33ccdd;
+}
+
+/*
+
+	Bottom border of content
+
+*/
+
+.pinkBottom {
+	border-bottom:		10px solid #cc33dd;
+}
+
+.purpleBottom {
+	border-bottom:		10px solid #AA44FF;
+}
+
+.blueBottom {
+	border-bottom:		10px solid #4455ff;
+}
+
+.cyanBottom {
+	border-bottom:		10px solid #33ccdd;
+}
+
+
+
+.pinkBottomThin {
+	border-bottom:		3px solid #cc33dd;
+}
+
+.purpleBottomThin{
+	border-bottom:		3px solid #AA44FF;
+}
+
+.blueBottomThin {
+	border-bottom:		3px solid #4455ff;
+}
+
+.cyanBottomThin {
+	border-bottom:		3px solid #33ccdd;
+}
+
+/*
+
+	Hr colours
+
+*/
+
+hr.pink {
+	color:			#cc33dd;
+}
+
+hr.purple {
+	color:			#AA44FF;
+}
+
+hr.blue {
+	color:			#4455ff;
+}
+
+hr.cyan {
+	color:			#33ccdd;
+}
+
+
+/*
+
+	Notification paragraphs
+
+*/
+
+p.alert {
+	background-color: 			#FFBBBB;
+	color: 						#880000;
+	padding: 					5px;
+}
+
+p.warning {
+	background-color: 			#FFFFBB;
+	color: 						#888800;
+	padding: 					5px;
+}
+
+p.success {
+	background-color: 			#BBFFBB;
+	color: 						#008800;
+	padding: 					5px;
+}

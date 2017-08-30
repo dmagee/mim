@@ -1,0 +1,168 @@
+/*
+	list.css
+	
+	Default Website Stylesheet.
+	
+	Contains fonts for the default template website.
+	
+	© Alexander Wright, 2015
+	
+ */
+ 
+ 
+
+ul{
+	list-style-type:		none;
+	margin:					0;
+	padding:				0;
+	text-align:				left;
+}
+
+li {
+	margin-left:			20px;
+	padding:				10px;
+	font-weight:			normal;
+	font-size:				1em;
+	text-decoration:		none;
+	color:					#000000;
+	list-style:				square;
+}
+
+
+li h2 {
+	color: 					#000000;
+}
+
+li a {
+	text-decoration:		none;
+}
+
+li a:hover {
+	text-decoration:		underline;
+}
+
+
+/*
+	Quick hack for nav buttons
+* /
+
+ul{
+	list-style-type:		none;
+	margin:					0;
+	padding:				0;
+}
+
+li {
+	padding:				10px;
+	font-weight:			normal;
+	font-size:				1em;
+	text-decoration:		none;
+	
+}
+
+li a {
+	color:					#339933;
+	text-decoration:		none;
+}
+
+li a:hover {
+	text-decoration:		underline;
+}
+
+
+#navBar ul {
+	list-style:					none;
+	list-style-type:			none;
+	margin:						0;
+	padding:					0;
+	height:						auto;
+	
+	display:					block;
+	
+	-webkit-margin-before: 		0em;
+	-webkit-margin-after: 		0em;
+	-webkit-margin-start: 		0px;
+	-webkit-margin-end: 		0px;
+	-webkit-padding-start: 		0px;
+}
+
+#navBar ul li {
+	margin:						0;
+	padding:					0px;
+	font-weight:				normal;
+	font-size:					1.25em;
+	text-decoration:			none;
+	
+	display:					block;
+	position:					relative;
+	list-style:					none;
+
+	display:					inline;
+	
+}
+
+#navBar ul li a {
+	padding:					15px 15px 15px 15px;
+	color:						#FFFFFF;
+	text-decoration:			none;
+}
+
+#navBar ul li a:hover {
+	padding:					10px 15px 15px 15px;
+	color:						#FFFFFF;
+	background-color:			#339933;
+	background-image: 			-moz-linear-gradient(top, #339933, #115511);
+	background-image: 			-ms-linear-gradient(top, #339933, #115511);
+	background-image: 			-webkit-linear-gradient(top, #339933, #115511);
+	background-image: 			-o-linear-gradient(top, #339933, #115511);
+	background-image: 			linear-gradient(top, #339933, #115511);	
+	
+	
+	/*border-top:					5px solid #66CC66;* /
+	text-decoration:			none;
+}
+
+
+#navButtons{ 
+	list-style:					none; 
+	font-weight:				bold; 
+	float:						left; 
+	width:						100%; 
+	position:					relative;
+    z-index:					10;
+} 
+
+#navButtons li{ 
+	float:						left; 
+	position:					relative; 
+} 
+
+#navButtons a{ 
+	display:					block; 
+	color:						#FFFFFF; 
+	text-decoration:			none; 
+} 
+
+#navButtons a:hover{ 
+	color:						#FFFFFF; 
+	background:					#339933; 
+	text-decoration:			none; 
+} 
+
+
+#navBar #selected {
+	padding:					0px;
+	/*border-top:					5px solid #66CC66;* /
+}
+
+#navBar #selected a {
+	padding:					10px 15px 15px 15px;	
+	/*border-top:					0px solid #FF0000;* /
+}
+
+#navBar #selected a:hover {
+	padding:					10px 15px 15px 15px;	
+	/*border-top:					0px solid #FF0000;* /
+}
+
+/* End quick hack */

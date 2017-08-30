@@ -1,0 +1,654 @@
+/*
+	screen.css
+	
+	Default Website Stylesheet.
+	
+	Contains default computer monitor styles for the default template website.
+	
+	© Alexander Wright, 2015
+
+	Pink for Black bk:	DD33CC
+	Blue for Black bk:	33CCDD
+	
+ */
+ 
+ 
+ 
+/*
+	===========================================================================
+	
+	Layout Containers
+	
+	===========================================================================
+*/
+
+
+* {
+	margin:					0px;
+	padding:				0px;	
+}
+
+a, img {
+    border:					none;	
+}
+
+html {
+
+}
+
+body {
+	/*background-color:           #FFFFFF; 	 To make the footer look better when half way up the screen */
+	background-image:           url(../gfx/bk/blacktile.png);
+	background-position:        top center; 
+	background-repeat:          repeat;
+	padding:					0;
+	margin:						0;
+    text-align:            		center;
+}
+
+@media screen {
+
+
+	.wrap {    
+		background-image:           url(../gfx/bk/bkblur.png);
+		background-position:        top center; 
+		background-repeat:          no-repeat;
+		background-attachment: 		fixed;
+		margin:						0 auto;
+		text-align:					center;
+	}
+
+	
+	
+	/*
+	
+		Header Styles
+		
+	*/
+	
+	.headerIndex {
+		margin: 					0 20px;
+		width:                  	auto;
+		padding:					70px 0px 70px 0px;
+		text-align:            		center;
+	}	
+	
+	
+	.headerIndex:hover {
+	
+	}	
+	
+	
+	header {
+		margin: 					0 auto;
+		width:                  	980px;
+		padding:					0px;
+		text-align:            		center;
+	}
+	
+	.headLeft {
+		float: 						left;
+		padding: 					10px;
+	}
+	
+	.headRight {
+		float: 						right;
+		padding: 					10px;
+		margin-top: 				10px;
+		display:					inline;
+	}
+	
+	.mobileBanner {		
+		background-color:           #FFFFFF;	
+		display: 					none;
+	}
+	
+	
+	.headerImageIndex {		
+		width: 						100%;
+		max-width:                 	350px;
+	}
+	
+	.headerImage {
+		max-width:					100%;
+		max-height:                 75px;	
+	}
+	
+	.logoIm {
+		width: 						100%;
+	}
+	
+	.socialIcons {
+		width:						30px;
+		padding: 					10px;
+	}
+	
+	.imPageHead {	
+		width: 						100%;
+		margin-bottom: 				10px;
+		box-shadow: 				0px 5px 10px #888888;
+	}
+	
+	.mimPageHead {	
+		width: 						100%;
+		max-width:					534px;
+		margin-bottom: 				10px;
+	}
+
+
+
+	
+	/*
+	
+		Navigation Styles
+		
+	*/
+
+	nav {
+		margin: 					0 auto;
+		width: 						100%;
+		text-align:            		center;
+		padding:					5px 0px;
+		box-shadow: 				0px 5px 10px #222222;		
+	}
+	
+	.subNav {
+		margin: 					0 auto;
+		width: 						100%;
+		text-align:            		center;
+		padding:					3px 0px;
+		box-shadow: 				0px 5px 10px #222222;	
+	}
+
+
+	/*
+	
+		Main Content Styles
+		
+	*/
+	
+	.contentBk {
+		padding: 					15px 0px;
+		margin: 					0 auto;
+		width:                     	100%;
+		height:                    	auto;
+		text-align:            		center;
+		/*box-shadow: 				0px 5px 10px #888888;*/	
+		/*background-image:           url(../gfx/bk/bkFlip.jpg);
+		background-position:        bottom center; 
+		background-repeat:          no-repeat;*/
+	}
+	
+	.contentBk.clear {
+		background-color:           none;
+	}
+	
+	
+	.contentBk.white {
+		background-color:           #FFFFFF;	
+		background-color:			rgba(255, 255, 255, 0.2);
+	}
+	
+	.contentBk.grey {
+		background-color:           #EEEEEE;
+		background-color:			rgba(220, 220, 220, 0.2);
+	}
+	
+	
+	.contentBk.black {
+		background-color:           #000000;	
+		background-color:			rgba(0, 0, 0, 0.2);
+	}
+	
+	
+	.bar {
+		margin: 					0px auto;
+		padding: 					0px;
+		max-width:					980px; 		
+	}
+	
+	img.barIm {
+		width: 						100%;
+		display: 					block;
+	}
+	
+	img.shadIm {
+		width: 						90%;
+		display: 					block;
+		box-shadow: 				0px 5px 10px #222222;
+		padding:					0px;
+		margin:						0 auto 20px auto;
+	}
+	
+	.content {
+		background-color:           #EEEEEE;
+		background-image:           url(../gfx/bk/whitetile.png);
+		background-position:        top center; 
+		background-repeat:          repeat;
+		margin: 					0px auto;
+		max-width: 					940px;
+		text-align: 				center;
+		padding: 					20px;	
+		/*opacity: 					0.9;*/
+		border-radius: 				0px 0px 10px 10px;
+		box-shadow: 				0px 5px 10px #222222;
+	}
+	
+	.i {
+		background-color:           #111111;	
+		background-image:           url(../gfx/bk/blacktile.png);
+		background-position:        top center; 
+		background-repeat:          repeat;
+
+	}
+	
+	.contentClear {
+		margin: 					0px auto;
+		max-width: 					940px;
+		text-align: 				center;
+		padding: 					20px;	
+	}
+	
+	.contentFloat {
+		font-size:					1em; 
+		margin: 					0px auto;
+		width: 						980px;
+		text-align: 				left;
+		padding: 					0px;
+	}	
+	
+	
+	.floatTextLeft {
+		background-color:           #FFFFFF;	
+		float: 						left;
+		margin: 					0px auto;
+		width: 						600px;
+		min-height: 				300px;
+		text-align: 				left;
+		padding: 					20px;
+		border: 					2px dashed #888888; 
+		box-shadow: 				0px 5px 10px #333333;	
+	}
+	
+	.floatTextRight {
+		background-color:           #FFFFFF;	
+		float: 						right;
+		margin: 					0px auto;
+		width: 						600px;
+		min-height: 				300px;
+		text-align: 				left;
+		padding: 					20px;
+		border: 					2px dashed #888888; 
+		box-shadow: 				0px 5px 10px #333333;	
+	}
+	
+	.floatTextLeft.logo {		
+		min-height: 				205px;
+	}
+	
+	.floatTextRight.logo {		
+		min-height: 				205px;
+	}
+
+	
+	.floatImLeft {
+		background-color:           #FFFFFF;	
+		float: 						left;
+		margin: 					0px auto;
+		width: 						250px;
+		text-align: 				left;
+		padding: 					20px;
+		border: 					2px dashed #888888; 
+		box-shadow: 				0px 5px 10px #333333;	
+	}
+	
+	.floatImRight {
+		background-color:           #FFFFFF;	
+		float: 						right;
+		margin: 					0px auto;
+		width: 						250px;
+		text-align: 				left;
+		padding: 					20px;
+		border: 					2px dashed #888888; 
+		box-shadow: 				0px 5px 10px #333333;	
+	}
+	
+	
+	.screenList {
+		display: 					inline;
+	}
+	
+	.screenListHalf {
+		float: 						left;
+		width: 						50%;
+	}
+	
+	.mobileGrid {
+		display: 					none;
+	}
+
+	
+	/*
+	
+		Gradient boxes and containers
+	
+	*/
+	
+
+		
+	.gradBoxContainerList {
+		width: 						100%;
+		margin: 					auto;
+		text-align: 				left;
+	}
+	
+	.gradBoxIcon {	
+		padding:					5px;	
+		margin: 					5px;		
+		box-shadow: 				0px 5px 10px #888888;	
+		text-align:            		center;
+		float: 						left;
+	}
+	
+	.curricListText{
+		margin: 					15px 5px;	
+		float: 						left;
+	}
+	
+	
+	.gradBoxContainer {
+		width: 						15%;
+		margin:						5px;
+		float: 						left;
+		text-align: 				center;
+	}
+	
+	.productContainer {
+		width: 						25%;	
+		float: 						left;
+		text-align: 				center;
+		margin-bottom: 				20px;
+	}
+	
+	.gradBoxContainerHi {
+		width: 						16%;	
+		float: 						left;
+		text-align: 				center;
+		height: 					160px;
+	}
+	
+	.gradBoxContainerFull {
+		width: 						100%;
+		margin: 					auto;
+		text-align: 				center;
+	}
+	
+	.w80 {
+		width: 						80%;	
+	}
+	
+	.gradBox {
+		margin: 					5px;	
+		padding:					10px;	
+		border-radius: 				10px;	
+		box-shadow: 				0px 5px 10px #888888;	
+		text-align:            		center;
+	}
+	
+	.gradBoxCircleFoot {
+		margin: 					5px;	
+		padding:					3px 5px 5px 5px;	
+		border-radius: 				0px 0px 10px 10px;
+		box-shadow: 				0px 5px 10px #222222;	
+		text-align:            		center;	
+	}
+	
+	.productCircleFoot {
+		margin: 					5px;	
+		padding:					3px 5px 5px 5px;
+		border-radius: 				0px 0px 10px 10px;	
+		box-shadow: 				0px 5px 10px #222222;	
+		text-align:            		center;	
+	}
+	
+
+	
+	.box_content {
+		float: 				left;
+		width: 				60%;
+	}
+
+
+	.illustration {
+		float: 				right;
+		width: 				30%;
+		text-align: 		right;
+	}	
+
+	
+	/*
+	
+		Tables
+	
+	*/
+	
+	
+	
+	table{
+		width:                     	80%;
+		background-color:			#FFFFFF;
+		box-shadow: 				0px 3px 8px #222222;
+		margin:               		20px auto;
+		padding:					0px 0px 10px 0px;	
+		text-align:					left;
+		border-spacing:				0px;
+		border-top:					3px solid #cc33dd;
+	}
+	
+	th {
+		color: 						#FFFFFF;
+		background-color:			#9900AA;	
+		padding: 					10px 10px;	
+	}
+	
+	td {
+		padding: 					10px;
+	}
+	
+
+	/*
+	
+		Forms	
+	
+	*/
+	
+
+	form {
+		width:                     	60%;
+		background-color:			#FFFFFF;
+		box-shadow: 				0px 3px 8px #222222;
+		margin:               		20px auto;
+		padding:					20px 30px;
+	}
+	
+	form.invisible {
+		width:                     	60%;
+		background-color:			transparent;
+		box-shadow: 				0px 0px 0px #222222;
+		margin:               		20px auto;
+		padding:					20px 30px;
+	}
+	
+	input {
+		width:						90%;
+		font-size:					1.2em;
+		margin:						10px 0px;
+		padding:					10px;
+	}
+	
+	textarea {
+		width:						90%;
+		font-size:					1.2em;
+		margin:						10px 0px;
+		padding:					10px;
+		resize:						vertical;
+		line-height:				1;
+	}
+	
+	button {
+		width: 						100%;
+		text-align: 				right;	
+		font-size:					1.4em;	
+		color: 						#FFFFFF;	
+		margin:						10px 0px;
+		padding:					10px 30px 10px 30px;	
+		border-style: 				none;
+		border-radius: 				0px 0px 10px 10px;	
+		box-shadow: 				0px 5px 10px #222222;	
+	}
+	
+	button.middle {
+		text-align: 			center;
+	}
+
+
+
+	button:hover {		
+	
+	}
+
+	
+	/*
+	
+		Images
+
+	*/
+	
+
+	img.circle {
+		border-radius: 				50%;
+		overflow: 					hidden;
+		width:	 					100%;
+		max-width: 					150px;
+		max-height: 				150px;
+		box-shadow: 				0px 5px 10px #222222;
+		margin-bottom: 				10px;
+
+		-webkit-filter: 			brightness(100%);
+		filter: 					brightness(100%);
+		/*
+		-webkit-filter: 			grayscale(0%); 
+		filter: 					grayscale(0%);
+		*/
+		-webkit-transition: 		all 1s ease;
+		-moz-transition: 			all 1s ease;
+		-o-transition: 				all 1s ease;
+		-ms-transition: 			all 1s ease;
+		transition: 				all 1s ease;		
+	}
+	
+	img.circle:hover {
+		-webkit-filter: 			brightness(120%);
+		filter: 					brightness(120%);
+		/*
+		-webkit-filter: 			grayscale(0%);
+		filter: 					grayscale(0%);
+		*/
+		-webkit-transform: 			rotateZ(-10deg);
+		-ms-transform: 				rotateZ(-10deg);
+		transform: 					rotateZ(-10deg);
+	}
+
+	.imageShadow {
+		margin: 					20px 0px;	
+		padding:					0px;	
+		border-radius: 				10px;	
+		box-shadow: 				0px 5px 10px #888888;	
+		text-align:            		center;
+	}
+	
+	.frontIm {
+		box-shadow: 				0px 5px 10px #888888;	
+		display: 					block;
+	}
+	
+	
+	.imSig {
+		padding: 					20px 20px;
+		width:						200px;
+	}
+	
+	.pubBox {
+		background-color:			#FFFFFF;
+		box-shadow: 				0px 2px 5px #888888; 
+		padding: 					15px;
+	}
+	
+
+	
+
+	.clear{
+		clear:						both;
+	}
+	
+	
+	
+	/*
+	
+		Social media Layout
+	
+	*/
+
+	.social {
+		width: 						auto;
+	}
+	
+	
+	
+	.socialLeft {
+		width: 						33%;
+		text-align: 				left;
+		float: 						left;	
+	}
+	
+	.socialMid {
+		width: 						33%;
+		text-align: 				center;
+		float: 						left;	
+	}
+	
+	.socialRight {
+		width: 						33%;
+		text-align: 				right;
+		float: 						left;
+	}
+	
+	
+	/*
+	
+		Footer layout
+	
+	*/
+
+
+	footer {
+		margin: 					0 auto;
+		width:                  	100%;
+		text-align:            		center;
+		padding:					10px 0px;			
+	}
+
+
+
+	hr {
+		border-style:				solid;
+		height:						0px;
+		margin:						20px 0px 20px 0px;		
+	}
+
+
+
+	 
+}	 
+
+

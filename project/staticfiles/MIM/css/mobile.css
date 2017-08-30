@@ -1,0 +1,155 @@
+/*
+	mobile.css
+	
+	Default Website Stylesheet.
+	
+	Contains mobile styles for the default template website.
+	
+	© Alexander Wright, 2015
+	
+ */ 
+ 
+ 
+/* 
+ 	Layout: 
+	=============================================================================== 
+ */
+
+ @media (max-width: 700px) {
+ 
+ 
+	/*
+	
+		Header
+	
+	*/
+
+	
+	.headerIndex {
+		padding: 					30px 10px 20px 10px;
+		font-size:					0.8em;
+	}
+	
+	.headerImageIndex {
+		width: 						60%;
+	}
+
+
+	.logoBox {
+		float: 						none;
+		width: 						100%;
+		padding: 					20px;
+	}
+	
+	.logoIm {
+		width: 						100%;
+	}
+	
+	
+	.socialLeft {
+		width: 						100%;
+		text-align: 				center;
+		float: 						none;
+		padding-bottom: 			10px;		
+	}
+	
+	.socialMid {
+		width: 						100%;
+		text-align: 				center;
+		float: 						none;	
+		padding-bottom: 			10px;
+	}
+	
+	.socialRight {
+		width: 						100%;
+		text-align: 				center;
+		float: 						none;	
+		padding-bottom: 			10px;
+	}
+	
+	/*
+	
+		Content
+	
+	*/
+	
+	h1{
+		font-size:					1.5em;
+	}	
+	
+	h2{
+		font-size:					1.4em;
+	}	
+	
+	.navText {
+		font-size:					1.2em;	
+	}
+	
+	.gradBoxContainer {
+		width: 						25%;	
+		float: 						left;
+		text-align: 				center;
+	}	
+	
+	.productContainer {
+		width: 						25%;	
+		float: 						left;
+		text-align: 				center;
+	}	
+	
+	
+	.screenList {
+		display: 					none;
+	}
+	
+	.mobileGrid {
+		display: 					inline;
+	}
+	
+	.gradBoxContainer {
+		width: 						30%;	
+		float: 						left;
+		text-align: 				center;
+	}
+	
+	.productContainer {
+		width: 						50%;	
+		float: 						left;
+		text-align: 				center;
+	}	
+	
+}
+
+
+ @media (max-width: 500px) {
+	.gradBoxContainer {
+		width: 						45%;	
+		float: 						left;
+		text-align: 				center;
+	} 
+	
+	.productContainer {
+		width: 						100%;	
+		float: 						none;
+		text-align: 				center;
+	}	
+	
+	
+}
+
+ @media (max-width: 250px) {
+	.gradBoxContainer {
+		width: 						100%;	
+		float: 						left;
+		text-align: 				center;
+	} 
+	
+	.productContainer {
+		width: 						100%;	
+		float: 						left;
+		text-align: 				center;
+	}	
+	
+	
+}
+
